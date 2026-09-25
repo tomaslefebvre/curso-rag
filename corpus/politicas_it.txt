@@ -1,0 +1,22 @@
+# Políticas IT de AcmeCloud
+
+## Acceso remoto y VPN
+El acceso remoto a recursos internos de AcmeCloud se realiza mediante SecureConnect VPN. Los empleados de EMEA deben usar VPN-EU y los empleados de AMER deben usar VPN-US. La VPN requiere SSO y un segundo factor de autenticación.
+
+## Política de MFA
+Todos los sistemas clasificados como críticos deben usar MFA, excepto cuando el proveedor no lo soporta. Aunque Microsoft Entra permite técnicamente que un administrador restablezca métodos de autenticación, en AcmeCloud los administradores locales NO deben resetear MFA directamente desde Entra. El usuario debe abrir un ticket con Service Desk y completar la verificación de identidad. Esta regla es interna de AcmeCloud y tiene prioridad sobre procedimientos genéricos del proveedor.
+
+## Dispositivos corporativos
+Los equipos administrados deben cifrar el disco y tener protección EDR activa. No se permite almacenar credenciales en archivos de texto ni compartir cuentas de servicio entre equipos.
+
+## Contraseñas
+Las contraseñas de cuentas locales excepcionales deben tener al menos 16 caracteres. Las cuentas federadas usan SSO y MFA; no se solicita un cambio periódico de contraseña salvo incidente de seguridad.
+
+## Incidentes
+Un incidente P1 implica indisponibilidad total de un servicio crítico para múltiples usuarios o una condición de seguridad activa. Un P2 implica degradación importante con alternativa limitada. P3 y P4 corresponden a impacto menor o consultas.
+
+## Accesos privilegiados
+El acceso administrativo se concede por tiempo limitado mediante Privileged Access Management. Toda elevación debe estar asociada a un ticket aprobado.
+
+## Software no aprobado
+Los usuarios no pueden instalar software no aprobado en equipos administrados. Las excepciones se solicitan a Workplace IT mediante ServiceNow.

@@ -1,0 +1,42 @@
+# Manual de soporte AcmeCloud
+
+## VPN-1047 — Certificado de dispositivo no válido
+Síntoma: SecureConnect muestra el código VPN-1047 y no completa la conexión.
+Causa habitual: el certificado del dispositivo expiró o el equipo no pudo renovar el certificado corporativo.
+Resolución:
+1. Confirmar que el equipo está conectado a Internet sin VPN.
+2. Abrir Acme Device Portal y ejecutar “Renew device certificate”.
+3. Esperar hasta 5 minutos.
+4. Reintentar SecureConnect.
+5. Si persiste, abrir un ticket a Network Operations adjuntando el log de SecureConnect.
+No se debe reinstalar el cliente como primer paso.
+
+## VPN-1048 — Segundo factor rechazado
+Síntoma: SecureConnect muestra VPN-1048 después de introducir las credenciales.
+Causa habitual: el segundo factor fue rechazado, caducó o el usuario no completó la aprobación.
+Resolución: verificar conectividad del móvil, hora del dispositivo y registro MFA. Si el método MFA fue perdido, seguir el procedimiento de Service Desk; no resetear directamente desde Entra.
+
+## VPN-2091 — Gateway no disponible
+Síntoma: no se puede contactar con el gateway regional.
+Resolución: comprobar la página de estado interna. Si solo afecta a un usuario, cambiar temporalmente de red. Si afecta a múltiples usuarios, tratar como posible incidente P1/P2 según impacto.
+
+## SSO-3002 — Sesión federada caducada
+Cerrar completamente el navegador, volver a abrirlo y autenticarse de nuevo. Si el error persiste en varias aplicaciones, abrir ticket a Identity Platform.
+
+## MFA-2201 — Método no disponible
+Si el usuario cambió de teléfono o perdió el dispositivo, Service Desk debe verificar la identidad. Después de la verificación, Identity Platform puede registrar un nuevo método. Los administradores locales no deben ejecutar un reset directo desde Entra.
+
+## SAP-5100 — Rol insuficiente
+El usuario llegó a SAP-PROD pero no dispone del rol requerido. El equipo de soporte no debe asignar el rol directamente. Se requiere solicitud de acceso aprobada por el owner correspondiente.
+
+## M365-4013 — Token de Office inválido
+Cerrar todas las aplicaciones de Office, eliminar la sesión corporativa desde el panel de cuentas y volver a iniciar sesión. No eliminar el perfil de Windows salvo indicación de Workplace IT.
+
+## GITHUB-4037 — Organización no autorizada
+Confirmar que el usuario pertenece al grupo corporativo correcto. Si el repositorio es restringido, la pertenencia al grupo no sustituye la aprobación del owner del repositorio.
+
+## Adobe Creative Cloud
+ADOBE-CC no usa MFA propio porque se autentica mediante SSO corporativo. Si un usuario no puede activar una licencia, verificar primero que tenga una asignación activa en el portal de licencias.
+
+## Solicitudes inexistentes
+El manual no contiene un procedimiento para cancelar combates, reservar vuelos, reembolsar productos de consumo ni gestionar suscripciones personales.

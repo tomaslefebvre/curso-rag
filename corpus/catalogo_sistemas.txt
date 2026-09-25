@@ -1,0 +1,269 @@
+### SAP-PROD
+Sistema: SAP S/4HANA
+Owner: Finance IT
+Región: EMEA
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 02:00–04:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### CRM-PROD
+Sistema: Salesforce
+Owner: Sales IT
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Sábado 03:00–05:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### HRIS-PROD
+Sistema: Workday
+Owner: People Systems
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 01:00–03:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### JIRA-CLOUD
+Sistema: Jira Cloud
+Owner: Engineering Tools
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sábado 01:00–02:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### CONFLUENCE
+Sistema: Confluence Cloud
+Owner: Engineering Tools
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sábado 01:00–02:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### SLACK
+Sistema: Slack Enterprise Grid
+Owner: Collaboration
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### M365
+Sistema: Microsoft 365
+Owner: Workplace IT
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Domingo 00:00–02:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### VPN-EU
+Sistema: SecureConnect VPN Europe
+Owner: Network Operations
+Región: EMEA
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Miércoles 22:00–23:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### VPN-US
+Sistema: SecureConnect VPN US
+Owner: Network Operations
+Región: AMER
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Miércoles 22:00–23:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### GITHUB-ENT
+Sistema: GitHub Enterprise
+Owner: Developer Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 03:00–04:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### SNOW
+Sistema: ServiceNow
+Owner: ITSM
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sábado 23:00–00:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### ZOOM
+Sistema: Zoom Enterprise
+Owner: Collaboration
+Región: Global
+Autenticación: SSO
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### MIRO
+Sistema: Miro Enterprise
+Owner: Collaboration
+Región: Global
+Autenticación: SSO
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### FIGMA
+Sistema: Figma Enterprise
+Owner: Design Systems
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### TABLEAU
+Sistema: Tableau Cloud
+Owner: Data Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 04:00–05:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### SNOWFLAKE
+Sistema: Snowflake
+Owner: Data Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 04:00–06:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### DATADOG
+Sistema: Datadog
+Owner: SRE Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### AWS-PROD
+Sistema: AWS Production
+Owner: Cloud Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 3
+Ventana de mantenimiento: Domingo 02:00–05:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### AZURE-PROD
+Sistema: Microsoft Azure Production
+Owner: Cloud Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 3
+Ventana de mantenimiento: Domingo 02:00–05:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### GCP-DATA
+Sistema: Google Cloud Data
+Owner: Data Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 3
+Ventana de mantenimiento: Domingo 02:00–05:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### ADOBE-CC
+Sistema: Adobe Creative Cloud
+Owner: Workplace IT
+Región: Global
+Autenticación: SSO
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### DOCUSIGN
+Sistema: DocuSign
+Owner: Legal Operations
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### NETSUITE
+Sistema: Oracle NetSuite
+Owner: Finance IT
+Región: AMER
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 05:00–07:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### COUPA
+Sistema: Coupa
+Owner: Procurement IT
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 05:00–06:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### OKTA
+Sistema: Okta
+Owner: Identity Platform
+Región: Global
+Autenticación: MFA nativo
+Mesa de ayuda: Tier 3
+Ventana de mantenimiento: Sábado 22:00–23:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### ENRICH
+Sistema: Acme Enrichment Service
+Owner: Marketing Ops
+Región: Global
+Autenticación: API Key
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### MARKETO
+Sistema: Adobe Marketo Engage
+Owner: Marketing Ops
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 2
+Ventana de mantenimiento: Domingo 05:00–06:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### POWERBI
+Sistema: Power BI
+Owner: Data Platform
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Domingo 04:00–05:00
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### BOX
+Sistema: Box Enterprise
+Owner: Workplace IT
+Región: Global
+Autenticación: SSO + MFA
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.
+
+### DROPBOX-EXT
+Sistema: Dropbox External Exchange
+Owner: External Collaboration
+Región: EMEA
+Autenticación: SSO
+Mesa de ayuda: Tier 1
+Ventana de mantenimiento: Sin ventana fija
+Descripción: Aplicación corporativa administrada por AcmeCloud IT. Las solicitudes de acceso deben seguir el proceso de ServiceNow.

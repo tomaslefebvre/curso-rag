@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Curso de RAG desde cero con un caso de soporte IT empresarial">
+  <title>RAG desde cero · AcmeCloud</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="menuBtn" class="iconBtn" aria-label="Abrir menú">☰</button>
+    <div class="brand">
+      <div class="logo">R</div>
+      <div><strong>RAG desde cero</strong><span>AcmeCloud IT Assistant</span></div>
+    </div>
+    <button id="themeBtn" class="iconBtn" aria-label="Cambiar tema">◐</button>
+  </header>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="progressBox">
+      <div class="progressText"><span>Tu progreso</span><strong id="progressLabel">0%</strong></div>
+      <div class="bar"><div id="progressBar"></div></div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="sideNote">El progreso se guarda en este navegador.</div>
+  </aside>
+
+  <main class="main">
+    <article id="lesson"></article>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="course-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
